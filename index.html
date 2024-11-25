@@ -5,6 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crumb Hustlers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        details {
+            margin-bottom: 10px;
+        }
+
+        summary {
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        details p {
+            margin: 10px 0 0 20px;
+            font-size: 16px;
+            color: #555;
+        }
+    </style>
     <link rel="stylesheet" href="assets/style.css">
 </head>
 
@@ -16,15 +39,19 @@
     </header>
 
     <main>
-        <section id="content">
-            <p>This is a simple website created with HTML, CSS, and JavaScript.</p>
-            <button id="changeTextButton">Change Text</button>
-        </section>
-        <form action="/submit" method="POST">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name">
-            <button type="submit">Submit</button>
-        </form>
+        <details>
+            <summary>What is HTML?</summary>
+            <p>HTML stands for HyperText Markup Language. It is the standard language for creating webpages.</p>
+        </details>
+        <details>
+            <summary>What is CSS?</summary>
+            <p>CSS stands for Cascading Style Sheets. It is used to style the layout and appearance of a webpage.</p>
+        </details>
+        <details>
+            <summary>What is JavaScript?</summary>
+            <p>JavaScript is a programming language that allows you to add interactivity and dynamic features to
+                webpages.</p>
+        </details>
     </main>
 
     <footer>

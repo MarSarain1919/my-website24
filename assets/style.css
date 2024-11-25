@@ -22,6 +22,14 @@ main {
     margin-top: 20px;
 }
 
+details[open] summary {
+    color: #007BFF; /* Highlight color when open */
+}
+details p {
+    padding-left: 10px;
+    border-left: 2px solid #007BFF;
+}
+
 footer {
     text-align: center;
     margin-top: 40px;
