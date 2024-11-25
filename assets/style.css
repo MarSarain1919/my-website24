@@ -1,5 +1,6 @@
 /* General Reset */
 body, ul {
+    background-color: aliceblue;
     margin: 0;
     padding: 0;
 }
