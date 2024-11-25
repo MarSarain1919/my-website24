@@ -1,57 +1,50 @@
-/* Reset some default styles */
-body, h1, p {
+/* General Reset */
+body, ul {
     margin: 0;
     padding: 0;
 }
-
-/* Basic page styling */
-body {
-    font-family: cursive;
-    background-color: #df2387;
-    padding: 20px;
-}
-
 header {
-    background-color: #000000;
-    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
-    text-align: center;
-}
-
-main {
-    margin-top: 20px;
-}
-
-details[open] summary {
-    color: #007BFF; /* Highlight color when open */
-}
-
-details p {
-    padding-left: 20px;
-    border-left: 20px solid #007BFF;
-}
-
-details p {
-    transition: max-height 0.3s ease-in-out;
-    overflow: hidden;
-}
-
-footer {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 0.9em;
-    color: #777;
-}
-
-/* Button style */
-button {
-    padding: 10px 20px;
-    background-color: #4CAF50;
+    background: linear-gradient(90deg, #007BFF, #00C6FF);
     color: white;
-    border: none;
-    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+nav ul li a:hover {
+    color: #FFD700; /* Highlight color on hover */
+}
+nav ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #FFD700;
+    transition: width 0.3s;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+nav ul li a:hover::after {
+    width: 100%;
 }
 
-button:hover {
-    background-color: #45a049;
-}
