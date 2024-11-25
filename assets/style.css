@@ -26,7 +26,7 @@ nav ul li {
 }
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #00C6FF;
     font-size: 18px;
     position: relative;
     transition: color 0.3s ease;
