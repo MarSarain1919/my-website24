@@ -18,6 +18,7 @@ header {
     font-weight: bold;
 }
 nav ul {
+    background: #00C6FF;
     display: flex;
     list-style: none;
 }
