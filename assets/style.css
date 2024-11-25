@@ -30,6 +30,11 @@ details p {
     border-left: 2px solid #007BFF;
 }
 
+details p {
+    transition: max-height 0.3s ease-in-out;
+    overflow: hidden;
+}
+
 footer {
     text-align: center;
     margin-top: 40px;
