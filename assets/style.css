@@ -53,3 +53,15 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
+.image-container {
+    display: flex; /* Use Flexbox to align items side by side */
+      justify-content: center; /* Optionally center the images */
+      gap: 20px; /* Space between the images */
+    }
+.image-container img {
+      max-width: 100%; /* Ensure images are responsive */
+      height: auto; /* Maintain aspect ratio */
+      border-radius: 10px; /* Optional: Add rounded corners */
+    }
+
+
