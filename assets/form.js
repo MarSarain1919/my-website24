@@ -25,7 +25,7 @@ form.addEventListener("submit", function(event){
     }
 
     //If validation passes, display an alert with the form data
-    alert(`Form submitted successfully!\n\nName: ${name}\nEmaail: ${email}\nMessage: ${message}`);
+    alert(`Form submitted successfully!\n\nName: ${name}\nEmail: ${email}\nMessage: ${message}`);
 
     //optionally, clear the form after submission (if needed)
     form.reset();
